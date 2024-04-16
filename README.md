@@ -12,7 +12,7 @@ pip install matplotlib numpy pandas tensorflow scikit-learn
 
 Image Dataset -----> Feature Extraction ----------> Dimentionality Reduction ----------> Different Classification Techniques
 
-Image Dataset: CIFAR-10 Datset is used
-Feature Extraction: Hog, CNN(ResNet-50)
-Dimentionality Reduction: PCA/LDA
-Classification Techniques: KNN, SVM, KMeans
+<p>Image Dataset: CIFAR-10 Datset is used.<br>
+Feature Extraction: Hog, CNN(ResNet-50)<br>
+Dimentionality Reduction: PCA/LDA<br>
+Classification Techniques: KNN, SVM, KMeans</p>
