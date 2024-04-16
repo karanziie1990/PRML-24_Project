@@ -3,10 +3,9 @@
 ## Required Dependencies:
 ------------
 
-'''
-    pip install matplotlib numpy pandas tensorflow scikit-learn
-
-'''
+```
+pip install matplotlib numpy pandas tensorflow scikit-learn
+```
 
 ## WorkFlow of the Project:
 ----------
