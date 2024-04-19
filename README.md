@@ -45,10 +45,6 @@ To get started with this project, follow these steps:
 - Experiment with different architectures, hyperparameters, and training strategies to improve model performance.
 - Share your findings and insights with the community.
 
-## Contributors
-- [Rishi Patel](https://github.com/Rishyy37)
-- [Ansh Mehta](https://github.com/AnshMehta1)
-
 ## Acknowledgments
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [Pattern Recognition and Machine Learning](https://github.com/anandmishra22) by Anand Mishra, IITJ
