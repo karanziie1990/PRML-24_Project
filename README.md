@@ -30,8 +30,6 @@ CNNs are a class of deep neural networks that are well-suited for tasks involvin
 This project implements a CNN model using popular deep learning frameworks such as TensorFlow or PyTorch to classify images from the CIFAR-10 dataset. The model is trained on the training set and evaluated on the test set to measure its performance in terms of accuracy and loss.
 
 ## Repository Structure
-- `data/`: Contains the CIFAR-10 dataset.
-- `models/`: Contains pre-trained CNN models or scripts to train CNN models.
 - `notebooks/`: Jupyter notebooks for data exploration, model training, and evaluation.
 - `README.md`: Overview of the project and instructions for setup and usage.
 
@@ -48,15 +46,10 @@ To get started with this project, follow these steps:
 - Share your findings and insights with the community.
 
 ## Contributors
-- [Your Name](https://github.com/your_username)
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own projects. Contributions are welcome!
+- [Rishi Patel](https://github.com/Rishyy37)
+- [Ansh Mehta](https://github.com/AnshMehta1)
 
 ## Acknowledgments
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
-- [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng on Coursera
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [Pattern Recognition and Machine Learning](https://github.com/anandmishra22) by Anand Mishra, IITJ
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs)
