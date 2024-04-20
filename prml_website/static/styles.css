@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+/* Header styles */
+header {
+    background-image: linear-gradient(to bottom right, rgb(224, 8, 8), rgb(255, 213, 0));
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+/* Main container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;  
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 20px;
+    
+}
+
+/* Query section styles */
+#query-image-section h2 {
+    margin-bottom: 10px;
+}
+
+/* Query section styles */
+#query-num-section h2 {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    border: 1px solid #ccc;
+    padding: 4px;
+    width: 270px;
+    height: 187px;
+    border-radius: 4px;
+}
+
+.image-container img {
+    width: 260px;
+    height: 177px
+}
+
+.image-container:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Results section styles */
+#results-section h2 {
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.image-grid-script {
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block; /* Display images in a row */
+}
+
+.image-grid-script img {
+    max-width: 100%; /* Set maximum width to prevent overflow */
+    max-height: 100%; /* Set maximum height to prevent overflow */
+}
+
+.image-grid-script:hover {
+    box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5);
+}
