@@ -1,10 +1,10 @@
-# Convolutional Neural Network (CNN) - Project Readme
+# Image Retrieval from CIFAR-10 Dataset - Project README
 
 ## Overview
-This project demonstrates the use of Convolutional Neural Networks (CNNs) for image classification tasks, specifically using the CIFAR-10 dataset. CNNs are a class of deep neural networks that are particularly effective for processing structured grid-like data, such as images.
+This project focuses on implementing image retrieval from the CIFAR-10 dataset using various machine learning classifiers. The goal is to develop models capable of accurately retrieving similar images from the dataset given a query image. The classifiers used in this project include K-Nearest Neighbors (KNN), K-Means Clustering, Linear Discriminant Analysis (LDA), Principal Component Analysis (PCA), Support Vector Machines (SVM), Artificial Neural Networks (ANN), and Convolutional Neural Networks (CNN).
 
 ## About CIFAR-10 Dataset
-The CIFAR-10 dataset is a widely used benchmark dataset in the field of computer vision. It consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The dataset is divided into 50,000 training images and 10,000 test images.
+The CIFAR-10 dataset is a widely used benchmark dataset in the field of computer vision. It consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The dataset is commonly used for image classification tasks, but in this project, we focus on image retrieval.
 
 The 10 classes in the CIFAR-10 dataset are:
 1. Airplane
@@ -18,38 +18,42 @@ The 10 classes in the CIFAR-10 dataset are:
 9. Ship
 10. Truck
 
-## Convolutional Neural Networks (CNNs)
-CNNs are a class of deep neural networks that are well-suited for tasks involving image recognition and classification. They consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+## Classifiers Used
+1. **K-Nearest Neighbors (KNN)**: A non-parametric method used for classification and regression. It assigns the label of the majority of the k nearest neighbors to the query point.
+2. **K-Means Clustering**: An unsupervised clustering algorithm that partitions the dataset into k clusters based on similarity.
+3. **Linear Discriminant Analysis (LDA)**: A dimensionality reduction technique that finds the linear combinations of features that best separate different classes.
+4. **Principal Component Analysis (PCA)**: A dimensionality reduction technique that transforms the data into a new coordinate system to capture the maximum variance.
+5. **Support Vector Machines (SVM)**: A supervised learning algorithm that finds the hyperplane that best separates different classes in feature space.
+6. **Artificial Neural Networks (ANN)**: A class of machine learning algorithms inspired by the biological neural networks of the human brain.
+7. **Convolutional Neural Networks (CNN)**: A class of deep neural networks commonly used for analyzing visual imagery.
 
-### Key Components of CNNs:
-- **Convolutional Layers**: These layers apply convolutional filters to input images, extracting features such as edges, textures, and shapes.
-- **Pooling Layers**: Pooling layers reduce the spatial dimensions of the feature maps, reducing computational complexity and enhancing translation invariance.
-- **Fully Connected Layers**: Fully connected layers process the high-level features extracted by convolutional and pooling layers, mapping them to class labels.
-
-## About This Project
-This project implements a CNN model using popular deep learning frameworks such as TensorFlow or PyTorch to classify images from the CIFAR-10 dataset. The model is trained on the training set and evaluated on the test set to measure its performance in terms of accuracy and loss.
-
-## Repository Structure
-- `notebooks/`: Jupyter notebooks for data exploration, model training, and evaluation.
+## Project Structure
+- `data/`: Contains the CIFAR-10 dataset.
+- `models/`: Contains scripts or notebooks for training and evaluating the classifiers.
 - `README.md`: Overview of the project and instructions for setup and usage.
 
 ## Getting Started
 To get started with this project, follow these steps:
 1. Clone the repository to your local machine.
-2. Install the required dependencies (e.g., TensorFlow, PyTorch).
+2. Install the required dependencies (e.g., scikit-learn, TensorFlow, PyTorch).
 3. Download the CIFAR-10 dataset and place it in the `data/` directory.
-4. Explore the provided Jupyter notebooks for training and evaluating CNN models.
+4. Explore the provided scripts or notebooks for training and evaluating the classifiers.
 
 ## Usage
-- Use the provided Jupyter notebooks to train, evaluate, and visualize CNN models.
-- Experiment with different architectures, hyperparameters, and training strategies to improve model performance.
+- Use the provided scripts or notebooks to train, evaluate, and visualize the performance of different classifiers.
+- Experiment with different hyperparameters, feature extraction techniques, and model architectures to improve retrieval accuracy.
 - Share your findings and insights with the community.
 
 ## Contributors
-- [Rishi Patel](https://github.com/Rishyy37)
-- [Ansh Mehta](https://github.com/AnshMehta1)
+- [Your Name](https://github.com/your_username)
+- [Contributor 1](https://github.com/contributor1)
+- [Contributor 2](https://github.com/contributor2)
+
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own projects. Contributions are welcome!
 
 ## Acknowledgments
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
-- [Pattern Recognition and Machine Learning](https://github.com/anandmishra22) by Anand Mishra, IITJ
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
