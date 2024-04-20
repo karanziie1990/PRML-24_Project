@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Retrieval</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Image Retrieval</h1>
+    </header>
+    <main class="container">
+        <section id="query-num-section" class="section">
+            <h2>Input the Query Image Number : </h2>
+            <input type="number" id="query-number-input" class="input-number">
+            <button id="select-button">Select Image</button>
+        </section>
+        <section id="query-image-section" class="section">
+            <h2>Query Image : </h2>
+            <div id="query-image-container" class="image-container"></div>
+        </section>
+        <section id="results-section" class="section">
+            <h2>Similar Images : </h2>
+            <button id="retrieve-button">Retrieve Images</button>
+            <div id="similar-images-container" class="image-grid"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Retrieval Website</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
