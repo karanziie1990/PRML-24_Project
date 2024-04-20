@@ -28,7 +28,6 @@ The 10 classes in the CIFAR-10 dataset are:
 7. **Convolutional Neural Networks (CNN)**: A class of deep neural networks commonly used for analyzing visual imagery.
 
 ## Project Structure
-- `data/`: Contains the CIFAR-10 dataset.
 - `models/`: Contains scripts or notebooks for training and evaluating the classifiers.
 - `README.md`: Overview of the project and instructions for setup and usage.
 
@@ -45,15 +44,15 @@ To get started with this project, follow these steps:
 - Share your findings and insights with the community.
 
 ## Contributors
-- [Your Name](https://github.com/your_username)
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-
-## License
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own projects. Contributions are welcome!
+- [Rishi Patel]([https://github.com/your_username](https://github.com/Rishyy37))
+- [Ansh Mehta](https://github.com/AnshMehta1)
+- [Dhruva Kumar Kaushal](https://github.com/dhruvak001)
+- [Saurav Soni](https://github.com/sauravsoni6377)
+- [Mansi Choudhary](https://github.com/Mansianwala)
+- [Keshika Sharma](https://github.com/keshikash)
+- [Karan Ganeshwala](https://github.com/karanziie1990)
 
 ## Acknowledgments
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 - [TensorFlow Documentation](https://www.tensorflow.org/api_docs)
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
