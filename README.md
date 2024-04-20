@@ -44,7 +44,7 @@ To get started with this project, follow these steps:
 - Share your findings and insights with the community.
 
 ## Contributors
-- [Rishi Patel]((https://github.com/Rishyy37))
+- [Rishi Patel](https://github.com/Rishyy37)
 - [Ansh Mehta](https://github.com/AnshMehta1)
 - [Dhruva Kumar Kaushal](https://github.com/dhruvak001)
 - [Saurav Soni](https://github.com/sauravsoni6377)
