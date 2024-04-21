@@ -5,6 +5,7 @@ import random
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+import os
 
 X_test = np.load('X_test.npy')
 y_test = np.load('y_test.npy')
@@ -34,10 +35,18 @@ def plot_sample(X, y, index):
     plt.savefig(image_path, bbox_inches='tight')  # Save the plotted image without excess whitespace
     plt.close()  # Close the plot to free up memory
 
+def delete_images():
+    # Delete all image files in the static directory
+    for filename in os.listdir('static'):
+        if filename.startswith('image_'):
+            os.remove(os.path.join('static', filename))
+
 app = Flask(__name__)
 
 @app.route('/')
 def home():
+  # Delete all backend images when the home route is accessed
+  delete_images()
   return render_template('index.html')
 
 @app.route('/query', methods=['POST'])
@@ -81,6 +90,6 @@ def retrieve_images() :
     return jsonify({
         'similarImages': similar_images,
     })
-   
+
 # if __name__ == "__main__":
 #   app.run(host="0.0.0.0",port=5000)
